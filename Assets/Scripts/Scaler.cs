@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class CapsuleScript : MonoBehaviour
+public class Scaler : MonoBehaviour
 {
     [SerializeField] private float _changeSize;
     
-    void Update()
+    private void Update()
     {
         transform.localScale += new Vector3(_changeSize,  _changeSize, _changeSize) * Time.deltaTime;
     }

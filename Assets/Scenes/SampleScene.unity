@@ -571,6 +571,8 @@ GameObject:
   - component: {fileID: 1036961235}
   - component: {fileID: 1036961234}
   - component: {fileID: 1036961233}
+  - component: {fileID: 1036961237}
+  - component: {fileID: 1036961238}
   - component: {fileID: 1036961236}
   m_Layer: 0
   m_Name: CubeTwo
@@ -587,13 +589,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036961231}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.23256986, z: -0, w: 0.9725797}
+  m_LocalRotation: {x: -0, y: 0.08330534, z: -0, w: 0.9965241}
   m_LocalPosition: {x: 8.32, y: 0, z: -0.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1815070724}
-  m_LocalEulerAnglesHint: {x: 0, y: 26.897, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 9.557, z: 0}
 --- !u!65 &1036961233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -680,9 +682,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1036961231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b295e89670c28f746866e9e26b72ba07, type: 3}
+  m_Script: {fileID: 11500000, guid: 2db8be62549b55c45acd90de421e8a20, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CubeTwoScript
+  m_EditorClassIdentifier: Assembly-CSharp::Scaler
+  _changeSize: 0.1
+--- !u!114 &1036961237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036961231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0d2d8dc425c4742aaa0cacc5821d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotator
+  _rotateSpeed: 70
+--- !u!114 &1036961238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036961231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05318237c97f3c846863ccd9cd1d55b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Mover
 --- !u!1 &1328510227
 GameObject:
   m_ObjectHideFlags: 0

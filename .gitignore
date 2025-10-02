@@ -14,6 +14,7 @@ Assets/Plugins/Editor/JetBrains*
 [Bb]uilds/
 Assets/AssetStoreTools*
 Recordings/
+Logs/
 # Unity local user project setting
 UserSettings/
 
